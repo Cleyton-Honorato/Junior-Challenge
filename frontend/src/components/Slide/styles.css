@@ -1,0 +1,14 @@
+.slider-container {
+  margin: auto;
+  padding: 40px 0;
+  width: 70%;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-center {
+  z-index: 3;
+  transform: scale(1.1);
+}

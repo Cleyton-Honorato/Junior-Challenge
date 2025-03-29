@@ -1,0 +1,89 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #ffffff;
+  background-color: #111b2c;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 0rem 2rem;
+  padding-top: 1rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
+
+  height: max-content;
+  width: 50vw;
+}
+
+.intro strong {
+  font-size: 14px;
+}
+
+.intro i {
+  font-size: 14px;
+}
+
+.content {
+  width: 80%;
+  margin: 0 2rem;
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content-header strong {
+  font-size: 20px;
+}
+
+.add-ring-button {
+  border: 1px solid gray;
+  background: #2c3e50;
+}
+
+.add-ring-button:hover {
+  background: #425d77 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    margin: 0;
+  }
+
+  .intro {
+    width: 100%;
+  }
+  .content-header {
+    align-items: center;
+  }
+
+  .content-header strong {
+    font-size: 18px;
+  }
+}
