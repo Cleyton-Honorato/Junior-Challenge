@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "Ring" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "power" TEXT NOT NULL,
+    "bearer" INTEGER NOT NULL,
+    "forged" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
